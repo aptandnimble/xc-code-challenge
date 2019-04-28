@@ -1,0 +1,44 @@
+main {
+    float: left;
+    width: 100%;
+    margin: 60px auto;
+    .column-wrapper {
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        article {
+            width: 33.33333%;
+            float:left;
+            color: $silverBlue;
+            font-family: $serifStack;
+            font-weight: 700;
+            font-size: 14px;
+            .card {
+                padding: 15px;
+                h3 {
+                    font-size:24px;
+                    font-weight: 700;
+                }
+                p {
+                    line-height: 1.8;
+                    margin-bottom: 15px;
+                    color: $lighterBlue;
+                }
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 767px) { 
+    main {
+        .column-wrapper {
+            div {
+                article {
+                    width:100%;
+                }
+            }
+        }
+    }
+}

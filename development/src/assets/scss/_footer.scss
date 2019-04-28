@@ -1,0 +1,58 @@
+footer {
+    clear:both;
+    color: $dimGray;
+    background-color: $blue;
+    font-weight:400;
+    .footer-wrapper {
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        .button {
+            border:2px solid $dimGray;
+            color:$dimGray;
+            font-weight:700;
+        }
+        nav { 
+            float: left;
+            width: 33%;
+            .col {
+                width: 50%;
+                float: left;
+                a {
+                    text-decoration:none;
+                    color: $dimGray;
+                    font-weight:400;
+                    font-family: $sansSerifStack;
+                }
+            }
+        }
+        aside {
+            float: left;
+            width: 33%;
+        } 
+    } 
+    #copyright {
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        a {
+            color: $dimGray;
+            text-decoration:none;
+        }
+    }
+}
+
+
+@media (max-width: 767px) { 
+    #footer {
+        .footer-wrapper {
+            nav {
+                width:100%;
+            }
+            aside {
+                width:100%;
+            }
+        }
+    }
+}

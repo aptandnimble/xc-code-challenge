@@ -1,13 +1,31 @@
-# Accelerate_Nimble_Core
-Nimble Framework
+# xc-code-challenge_Vue-app
+Date: 4/28/2019
 Author: Dean Miranda
+contact: dean.m.miranda@gmail.com
 
-HTML5 & Gulp kit for fast development.
+Use "vue ui" and import this project, build, and serve from the GUI or run the commands below to set it up manually.
 
-To Install
+## Project setup
+```
+npm install
+```
 
-# Run "npm install"
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-To Develop - Turn on Watch and start server
+### Compiles and minifies for production
+```
+npm run build
+```
 
-# Run "gulp dev"
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```

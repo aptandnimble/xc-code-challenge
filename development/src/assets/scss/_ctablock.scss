@@ -1,0 +1,39 @@
+
+#cta-block {
+    clear:both;
+    background-color: $footerBlue;
+    color: $dimGray;
+    font-weight:400;
+    float: left;
+    width: 100%;
+    .cta-wrapper {
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .download-cta {
+        float: left;
+        width: 33%;
+        text-align: center;
+    }
+    aside {
+        float: left;
+        width: 33%;
+        text-align: center;
+        img {
+            text-align:center;
+            width: 100%;
+            max-width: 250px;
+        }
+    }
+}
+@media (max-width: 767px) { 
+    #cta-block {
+        .download-cta {
+            width:100%;
+        }
+        aside {
+            width:100%;
+        }
+    }
+}
